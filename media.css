@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,900&family=Ubuntu:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Add a media query for screens with a maximum width of 768px (typical mobile screen size) */
+@media only screen and (max-width: 768px) {
+
+    #nav{
+        padding: 3vw 5vw; /* Adjust padding for smaller screens */
+    }
+
+    #nav .centeratag{
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+
+    #hero{
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        margin-top: 15vh; /* Adjust margin for smaller screens */
+        padding: 0vw 5vw; /* Adjust padding for smaller screens */
+    }
+
+    #sustain{
+        width: 80%; /* Adjust width for smaller screens */
+    }
+
+    #ephemaral{
+        width: 80%; /* Adjust width for smaller screens */
+        min-height: auto; /* Auto height for smaller screens */
+    }
+
+    #ephemaral p{
+        font-size: 14px; /* Adjust font size for smaller screens */
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    #motive{
+        padding: 5vw 5vw; /* Adjust padding for smaller screens */
+    }
+
+    #motive p{
+        font-size: 16px; /* Adjust font size for smaller screens */
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    #pictures{
+        padding: 3vw; /* Adjust padding for smaller screens */
+        padding-left: 5vw; /* Adjust left padding for smaller screens */
+        padding-right: 5vw; /* Adjust right padding for smaller screens */
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    #firstpic, #secondpic{
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    #banner{
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        margin-top: 10vw; /* Adjust margin for smaller screens */
+    }
+
+    #bimg{
+        width: 100%; /* Adjust width for smaller screens */
+        height: 40vh; /* Adjust height for smaller screens */
+    }
+
+    #btext h1{
+        font-size: 2.5vw; /* Adjust font size for smaller screens */
+    }
+
+    #btext p{
+        width: 100%; /* Adjust width for smaller screens */
+        font-size: 0.8vw; /* Adjust font size for smaller screens */
+    }
+
+    #future{
+        height: auto; /* Auto height for smaller screens */
+    }
+
+    #future video{
+        position: relative; /* Remove absolute positioning for smaller screens */
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 100%; /* Adjust width for smaller screens */
+        height: 40vh; /* Adjust height for smaller screens */
+        opacity: 1; /* Show video on smaller screens */
+    }
+
+    #ftext button{
+        font-size: 1vw; /* Adjust font size for smaller screens */
+        padding: 1vw 2vw; /* Adjust padding for smaller screens */
+    }
+
+}
